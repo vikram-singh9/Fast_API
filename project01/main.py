@@ -22,17 +22,17 @@ famous_quotes = [
 ]
 
 @app.get("/famous_poetries")
-def get_famous_poetries(apikey:str):
+def get_famous_poetries():
     """returing random poetries"""
-    if apikey != 123456789:
-        return{"ERORR: Invalid API Response!"}
+    # if apikey != 123456789:
+    #     return{"ERORR: Invalid API Response!"}
     return {"Famous Poetries ": random.choice(famous_poetries)}
    
 @app.get("/famous_quotes")
-def get_famous_quotes(apikey:str):
+def get_famous_quotes():
 
     """returing random quotes"""
-    if apikey != 123456789:
-        return{"ERORR: Invalid API Response!"}
+    # if apikey != 123456789:
+    #     return{"ERORR: Invalid API Response!"}
     return {"Famous quotes ": random.choice(famous_quotes)}
    
