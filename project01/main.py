@@ -22,5 +22,12 @@ famous_quotes = [
 ]
 
 @app.get("/famous_poetries")
-"""returing random poetries"""
-def 
+def get_famous_poetries():
+    """returing random poetries"""
+    return {"Famous Poetries ": random.choice(famous_poetries)}
+   
+@app.get("/famous_quotes")
+def get_famous_poetries():
+    """returing random quotes"""
+    return {"Famous quotes ": random.choice(famous_poetries)}
+   
