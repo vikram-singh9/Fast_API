@@ -1,17 +1,4 @@
-# Famous Quotes and Poems API
 
-This is a simple FastAPI application that provides random famous quotes and poems. We'll use `uv` for dependency management, which is faster than `pip`.
-
-## Introduction
-
-This API serves random famous quotes and poems. It's built using FastAPI, a modern, fast (high-performance), web framework for building APIs with Python 3.7+ based on standard Python type hints. We'll leverage `uv` for efficient package management.
-
-## Getting Started
-
-### Prerequisites
-
-* Python 3.7+
-* `uv` (Install using `pip install uv`)
 
 ### Installation
 
